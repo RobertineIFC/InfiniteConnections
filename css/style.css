@@ -313,8 +313,8 @@
     z-index: 0;
     position: absolute;
     width: 10px;
-    height: 16px;
-    border-radius: 40px;
+    height: 10px;
+    border-radius: 2px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     transform: translate(-50%, -50%);
@@ -554,7 +554,7 @@
     border-width: 1px;
     font-size: 30px;
     margin-bottom: 1%;
-    z-index: 2000000000000000000000000000000000;
+    z-index: 20000000000000000000000800000000000;
   }
 
   .footer {
@@ -724,6 +724,11 @@
     margin-bottom: 1%;
     z-index: 20;
     cursor: pointer;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
   .zoomoutbutton {
     position: fixed;
@@ -740,6 +745,11 @@
     font-size: 0px;
     z-index: 20;
     cursor: pointer;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
   .resetzoombutton {
     position: fixed;
@@ -755,6 +765,11 @@
     border-radius: 0px;
     font-size: 0px;
     z-index: 20;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
 
   .resetzoombutton:hover {
@@ -772,6 +787,11 @@
     font-size: 13px;
     z-index: 20;
     cursor: pointer;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
 
 
@@ -873,7 +893,7 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 40px;
+    border-radius: 2px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     transform: translate(-50%, -50%);
@@ -890,7 +910,7 @@
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
     width: 100vw;
-    height: 100%;
+    height: 60%;
     left: 50%;
     transform: translateX(-50%);
     overflow: overlay;

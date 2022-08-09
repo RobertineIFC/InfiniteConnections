@@ -1,7 +1,7 @@
 main()
 
 async function main() {
-    const cities = ["paris", "newyork", "saopaulo", "barcelona", "buffalo", "london", "phoenix", "sanantonio", "sanfrancisco", "toronto", "dallas"]
+    const cities = ["paris", "newyork", "saopaulo", "barcelona", "buffalo", "london", "phoenix", "sanantonio", "sanfrancisco", "toronto", "dallas", "sacramento"]
     cities.forEach(addCity)
 }
 

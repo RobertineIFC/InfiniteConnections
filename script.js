@@ -13,7 +13,7 @@ async function addCity(cityID) {
 
 async function parseCSV(cityName) {
     try {
-        const response = await fetch(`/csv/${cityName}.csv`)
+        const response = await fetch(`csv/${cityName}.csv`)
         const text = await response.text()
         const lines = text.split("\n").slice(1)
 

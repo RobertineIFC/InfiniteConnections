@@ -25,17 +25,6 @@
         <p class="onlyonpc">This website is only available for desktop users at the moment.</p>
     </button>
 
-    <script>
-        function myFunction() {
-            var txt;
-            if (confirm("Press 'OK' to agree to the terms and conditions mentioned on the Infinite Flight Community topic thread. If you have any questions or concerns, please send us a message on the forum.")) {
-                btn.style.display = 'none'
-            } else {
-                win.close();
-            }
-        }
-    </script>
-
     <div class="title">
         InfiniteConnections
     </div>
@@ -126,35 +115,38 @@
                     </div>
 
 
-
-
-
-
-
-
-                    <script type="text/javascript">
-                        function zoomin() {
-                            var GFG = document.getElementById("mainmap");
-                            var currWidth = GFG.clientWidth;
-                            GFG.style.width = (currWidth + 100) + "px";
-                        }
-
-                        function zoomout() {
-                            var GFG = document.getElementById("mainmap");
-                            var currWidth = GFG.clientWidth;
-                            GFG.style.width = (currWidth - 100) + "px";
-                        }
-
-                        function resetzoom() {
-                            var GFG = document.getElementById("mainmap");
-                            var currWidth = GFG.clientWidth;
-                            GFG.style.width = (currWidth = 1024) + "px";
-                        }
-                    </script>
                 </div>
             </div>
         </div>
     </section>
 </body>
+    <script>
+        function myFunction() {
+            var txt;
+            if (confirm("Press 'OK' to agree to the terms and conditions mentioned on the Infinite Flight Community topic thread. If you have any questions or concerns, please send us a message on the forum.")) {
+                btn.style.display = 'none'
+            } else {
+                win.close();
+            }
+        }
+    </script>
+    <script type="text/javascript">
+    function zoomin() {
+        var GFG = document.getElementById("mainmap");
+        var currWidth = GFG.clientWidth;
+        GFG.style.width = (currWidth + 100) + "px";
+    }
 
+    function zoomout() {
+        var GFG = document.getElementById("mainmap");
+        var currWidth = GFG.clientWidth;
+        GFG.style.width = (currWidth - 100) + "px";
+    }
+
+    function resetzoom() {
+        var GFG = document.getElementById("mainmap");
+        var currWidth = GFG.clientWidth;
+        GFG.style.width = (currWidth = 1024) + "px";
+    }
+    </script>
 </html>

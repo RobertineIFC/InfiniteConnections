@@ -324,7 +324,7 @@
     -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
     transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
     background: rgb(255, 255, 255);
-    border: 2px solid #6a4807;
+    border: 100px solid #6a4807;
   }
   .distribution-map .map-point .content {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);

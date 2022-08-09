@@ -47,13 +47,6 @@
     cursor: pointer;
   }
 
-  .onlyonpc {
-    font-size: 30px;
-    cursor:not-allowed;
-    top: 80%;
-    color: red;
-  }
-
   .everynewsession {
     font-size: 15px;
     margin-bottom: 50%;
@@ -605,13 +598,6 @@
     text-decoration: underline;
     font-size: 30px;
     cursor: pointer;
-  }
-
-  .onlyonpc {
-    font-size: 30px;
-    cursor:not-allowed;
-    top: 80%;
-    color: red;
   }
 
   .everynewsession {

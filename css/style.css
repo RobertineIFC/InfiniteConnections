@@ -365,6 +365,35 @@
   }
 }
 
+.search-box {
+  padding-top: 5%;
+  display:flex;
+  justify-content: center;
+  z-index: 826526252726526282752726527282652772562;
+}
+
+
+
+.search-box input[type="text"]{
+  border: none;
+  outline: none;
+  letter-spacing: 5px;
+  height: 40px;
+  width: 350px;
+  font-size: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+  align-content: center;
+  z-index: 826526252726526282752726527282652772562;
+}
+
 
 
 
@@ -548,7 +577,7 @@
   .termsbutton {
     position: fixed;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     background: rgba(255, 255, 255, 0.75);
     color: rgb(0, 0, 0);
     border-color: gray;
@@ -561,14 +590,14 @@
   .footer {
     width: 100vw;
     background-color: black;
-    height: 150vw;
+    height: 120vw;
     display: flex;
     align-items: top;
     align-content: center;
     justify-content: center;
     z-index: 20000000;
     position:fixed;
-    padding-left: 10px;
+    padding: 5%;
     top:132.5vw;
     left:0;
   }
@@ -601,7 +630,7 @@
   }
 
   .usercounter {
-    width: 15%;
+    width: 20%;
     color: black;
     font-weight: 600;
     background-color: rgb(157, 16, 16);
@@ -614,13 +643,13 @@
     cursor: text;
     z-index: 20000000;
     position:fixed;
-    top:125.5vw;
+    top:127vw;
     left:0;
     font-size:13px;
   }
 
   .friendcounter {
-    width: 15%;
+    width: 20%;
     color: black;
     font-weight: 600;
     background-color: rgb(255, 221, 0);
@@ -629,16 +658,16 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 20%;
     cursor: text;
     z-index: 20000000;
     position:fixed;
-    top:125.5vw;
+    top:127vw;
     left:0;
     font-size:11px;
   }
   .meetcounter {
-    width: 15%;
+    width: 20%;
     color: black;
     font-weight: 600;
     background-color: rgb(92, 192, 25);
@@ -647,12 +676,12 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 40%;
     border-top-right-radius: 10px;
     cursor: text;
     z-index: 20000000;
     position:fixed;
-    top:125.5vw;
+    top:127vw;
     left:0;
     font-size:13px;
   }
@@ -866,14 +895,14 @@
     position: relative;
     margin: 0;
     padding: 0;
+    z-index: 999;
   }
   .distribution-map .map-point {
     cursor: pointer;
     outline: none;
-    z-index: 0;
+    z-index: 1000000000000000;
     position: absolute;
-    width: 10px;
-    height: 10px;
+    height: 17px;
     border-radius: 40px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
@@ -891,20 +920,21 @@
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
     width: 100vw;
-    height: 60%;
+    height: 100%;
     left: 50%;
     transform: translateX(-50%);
     overflow: overlay;
+    z-index: 100000;
   }
   .distribution-map .map-point:active, .distribution-map .map-point:focus {
     margin: 0;
     padding: 0;
     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     color: #e5e5e500;
-    z-index: 1;
+    z-index: 100000;
     transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
   }
   .distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
@@ -918,6 +948,7 @@
     -webkit-transition-delay: 0.25s, 0s, 0s;
     transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
     overflow: hidden;
+    z-index: 100000;
   }
   .distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
     color: #e29912;

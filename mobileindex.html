@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>
+        Infinite Connections
+    </title>
+    <link rel="icon" type="image/x-icon" href="Logo.jfif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="mobilestyle.css" />
+
+    <script src="mobilescript.js"></script>
+</head>
+
+
+
+
+<body">
+    <div class="title">
+        InfiniteConnections
+    </div>
+    <div class=search-box>
+        <input id="searchbar" onkeyup="search_cities()" type="text" name="search" placeholder="  Search cities...">
+    </div>
+    <input type="button" value="Clear Search" onclick="location.reload();" class="clearsearchbutton">
+
+    <div class="usercounter">
+        29 Users
+    </div>
+
+    <div class="friendcounter">
+        1 Friendship
+    </div>
+
+    <div class="meetcounter">
+        1 Meetup
+    </div>
+
+    <div class="footer">
+        For support, questions or concerns, please send us a DM on the Infinite Flight Community.
+    </div>
+
+
+    <button class="button">
+        <div id="paris" class="content">
+            <h2>Paris</h2>
+        </div>
+    </button>
+
+
+    <button class="button">
+        <div id="newyork" class="content">
+            <h2>New York</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="bergen">
+            <h2>Bergen</h2>
+        </div>
+    </button>
+
+
+    <button class="button">
+        <div class="content" id="portland">
+            <h2>Portland</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="tijuana">
+            <h2>Tijuana</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div id="washingtondc" class="content">
+            <h2>Washington D.C.</h2>
+        </div>
+    </button>
+
+
+    <button class="button">
+        <div class="content" id="rotterdam">
+            <h2>Rotterdam</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="manizales">
+            <h2>Manizales</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="saltlakecity">
+            <h2>Salt Lake City</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="atlanta">
+            <h2>Atlanta</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="coloradosprings">
+            <h2>Colorado Springs</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="bognorregis">
+            <h2>Bognor Regis</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="charlotte">
+            <h2>Charlotte</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" , id="pune">
+            <h2>Pune</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="cambridge">
+            <h2>Cambridge</h2>
+        </div>
+    </button>
+
+
+    <button class="button">
+        <div class="content" id="saopaulo">
+            <h2>Sao Paulo</h2>
+        </div>
+    </button>
+
+
+    <button class="button">
+        <div class="content" , id="barcelona">
+            <h2>Barcelona</h2>
+        </div>
+    </button>
+
+
+    <button class="button">
+        <div class="content" id="dallas">
+            <h2>Dallas</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="london">
+            <h2>London</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="toronto">
+            <h2>Toronto</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="phoenix">
+            <h2>Phoenix</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="sanfrancisco">
+            <h2>San Francisco</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="eindhoven">
+            <h2>Eindhoven</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div id="buffalo" class="content">
+            <h2>Buffalo</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="sanantonio">
+            <h2>San Antonio</h2>
+        </div>
+    </button>
+
+    <button class="button">
+        <div class="content" id="sacramento">
+            <h2>Sacramento</h2>
+        </div>
+    </button>
+</body>
+<script>
+    function myFunction() {
+        var txt;
+        if (confirm("Press 'OK' to agree to the terms and conditions mentioned on the Infinite Flight Community topic thread.")) {
+            btn.style.display = 'none'
+        } else {
+            win.close();
+        }
+    }
+</script>
+<script type="text/javascript">
+    function zoomin() {
+        var GFG = document.getElementById("mainmap");
+        var currWidth = GFG.clientWidth;
+        var currLength = GFG.clientLength;
+        GFG.style.width = (currWidth + 50) + "px";
+        GFG.style.length = (currLength + 50) + "px";
+    }
+
+    function zoomout() {
+        var GFG = document.getElementById("mainmap");
+        var currWidth = GFG.clientWidth;
+        var currLength = GFG.clientLength;
+        GFG.style.width = (currWidth - 50) + "px";
+        GFG.style.length = (currLength - 50) + "px";
+    }
+
+    function resetzoom() {
+        var GFG = document.getElementById("mainmap");
+        var currWidth = GFG.clientWidth;
+        GFG.style.width = (currWidth = 1024) + "px";
+    }
+</script>
+
+<script>
+    function reloadPage()
+    {
+    location.reload();
+    }
+</script>
+
+</body>
+
+</html>

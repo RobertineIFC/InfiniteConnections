@@ -46,63 +46,10 @@ body {
 }
 
 
-.usercounter {
-    width: 33.3vw;
-    color: black;
-    font-weight: 600;
-    background-color: rgb(157, 16, 16);
-    height: 2%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    cursor: text;
-    z-index: 20000000;
-    position:fixed;
-    top:6%;
-    left:0;
-}
-
-.friendcounter {
-    width: 33.3vw;
-    color: black;
-    font-weight: 600;
-    background-color: rgb(255, 221, 0);
-    height: 2%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 33.3vw;
-    cursor: text;
-    z-index: 20000000;
-    position:fixed;
-    top:6%;
-    left:0;
-}
-
-.meetcounter {
-    width: 33.3vw;
-    color: black;
-    font-weight: 600;
-    background-color: rgb(92, 192, 25);
-    height: 2%;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 66.6vw;
-    cursor: text;
-    z-index: 20000000;
-    position:fixed;
-    top:6%;
-    left:0;
-}
-
 .footer {
     width: 100vw;
     background-color: black;
-    height: 6%;
+    height: 10%;
     display: flex;
     align-items: center;
     align-content: center;

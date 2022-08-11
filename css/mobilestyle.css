@@ -56,9 +56,10 @@ body {
     justify-content: center;
     z-index: 20000000;
     position:fixed;
-    top:94%;
+    top:90%;
     left:0;
     color: white;
+    padding-left: 5px;
 }
 
 .button {
@@ -94,8 +95,7 @@ body {
     align-content: center;
     align-items: center;
     margin-left: 25%;
-    margin-bottom: 5%;
-    color: black;
+    margin-bottom: 50%;
 }
 
 

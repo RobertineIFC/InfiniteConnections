@@ -106,8 +106,8 @@
                             
                             
                             <button class="map-point" style="top:43.9%;left:48.4%">
-                                <div class="content" id="AlphenaandenRijn">
-                                    <h2>Alphen aan den Rijn</h2>
+                                <div class="content" id="rotterdam">
+                                    <h2>Rotterdam</h2>
                                 </div>
                             </button>
                             
@@ -147,7 +147,7 @@
                                 </div>
                             </button>
                             
-                            <button class="map-point" style="top:62%;left:67.4%">
+                            <button class="map-point" style="top:61%;left:67.4%">
                                 <div class="content" , id="pune">
                                     <h2>Pune</h2>
                                 </div>
@@ -221,6 +221,12 @@
                                     <h2>San Antonio</h2>
                                 </div>
                             </button>
+
+                            <button class="map-point" style="top:62%;left:68.4%">
+                                <div class="content" id="bangalore">
+                                    <h2>Bangalore</h2>
+                                </div>
+                            </button>
                             
                             <button class="map-point" style="top:51.3%;left:14.1%">
                                 <div class="content" id="sacramento">
@@ -247,13 +253,17 @@
         function zoomin() {
             var GFG = document.getElementById("mainmap");
             var currWidth = GFG.clientWidth;
-            GFG.style.width = (currWidth + 100) + "px";
+            var currLength = GFG.clientLength;
+            GFG.style.width = (currWidth + 50) + "px";
+            GFG.style.length = (currLength + 50) + "px";
         }
 
         function zoomout() {
             var GFG = document.getElementById("mainmap");
             var currWidth = GFG.clientWidth;
-            GFG.style.width = (currWidth - 100) + "px";
+            var currLength = GFG.clientLength;
+            GFG.style.width = (currWidth - 50) + "px";
+            GFG.style.length = (currLength - 50) + "px";
         }
 
         function resetzoom() {
